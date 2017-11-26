@@ -36,11 +36,11 @@ This interface error can be reproduced with the following steps:
       }
     }
     ```
-1. Notice that GraphiQL things that `Dog` and `Cat` are unknown types, but the query succeeds successfully. The docs also don't tell me that `Dog` or `Cat` implement the interface `Pet`.
+1. Notice that GraphiQL thinks that `Dog` and `Cat` are unknown types, but the query succeeds successfully. The docs also don't tell me that `Dog` or `Cat` implement the interface `Pet`.
 
     ![](https://content.screencast.com/users/CDay.zendesk/folders/Jing/media/511db1ea-af01-4551-84db-d14deab82058/00000520.png)
 
-
+## Generic Phoenix Stuff
 
 To start your Phoenix server:
 
